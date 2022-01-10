@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<title>Photo galery Flex Box </title>
+<html>
+    <head></head>
+    <body class="pics">    
+        <img src="./HTMLFlexBoxes/RefImg/22m.jpg">
+        <img src="./HTMLFlexBoxes/RefImg/23m.jpg">
+        <img src="HTMLFlexBoxes/RefImg/24m.jpg">
+        <img src="HTMLFlexBoxes/RefImg/27m.jpg">
+        <img src="HTMLFlexBoxes/RefImg/28m.jpg">
+        <img src="HTMLFlexBoxes/RefImg/29m.jpg">
+        <img src="HTMLFlexBoxes/RefImg/30m.jpg">
+        <img src="HTMLFlexBoxes/RefImg/32m.jpg">
+        <img src="HTMLFlexBoxes/RefImg/33m.jpg">
+    </body>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+    body {
+            background-color: rosybrown;
+            padding-left: 12%;   
+        }
+        .pics {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            flex-direction: row;
+            max-height: 100vh;
+        }
+        
+        .pics img{
+            margin: 10px;
+            border: 4px solid black;
+            box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.836);
+            max-width: 23vw;
+        }
+    </style>
+</html>
+
+
